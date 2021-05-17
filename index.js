@@ -12,9 +12,6 @@ app.get("/produtos", function(req,res){
 })
 app.get("/equipe", function(req,res){
     res.send("<h1>Daniel Colares</h1>");
-    res.send("<h1>Diego Ponte</h1>");
-    res.send("<h1>Felipe Luz</h1>");
-    res.send("<h1>Romulo Jales.</h1>");
 })
 
 //rota com parametro 
