@@ -11,7 +11,7 @@ app.get("/produtos", function(req,res){
     res.send("<h1>Lista de Produtos!</h1>");
 })
 app.get("/equipe", function(req,res){
-    res.send("<h1>Daniel Colares</h1>");
+    res.send("<h1>Daniel Colares, Diego Ponte, Felipe Luz e Romulo Jales</h1>");
 })
 
 //rota com parametro 
